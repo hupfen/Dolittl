@@ -1,0 +1,28 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/variables';
+@import 'bootswatch-scss/flatly/variables';
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'bootswatch-scss/flatly/bootswatch';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.container {
+    margin-top: $navbar-height;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+}
