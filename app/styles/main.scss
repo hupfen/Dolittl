@@ -1,6 +1,7 @@
 $icon-font-path: "/bower_components/components-font-awesome/fonts/";
 
 @import 'components-font-awesome/scss/font-awesome.scss';
+@import 'webfont.scss';
 
 @import 'sass-bootstrap/lib/variables';
 @import 'bootswatch-scss/flatly/variables';
@@ -14,12 +15,28 @@ $icon-font-path: "/bower_components/components-font-awesome/fonts/";
     padding: 0.2em 0;
 }
 
-.container {
-    margin-top: $navbar-height;
+.logo {
+    font-family: 'underwood';
+    font-size: 5em;
+    opacity: .8;
 }
 
-.footer {
-    width: 100%;
+body {
+    margin-top: $navbar-height;
+        background: url(../images/jumbo.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    opacity: .7;
+}
+
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
 }
 
 /* Space out content a bit */
