@@ -1,4 +1,6 @@
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$icon-font-path: "/bower_components/components-font-awesome/fonts/";
+
+@import 'components-font-awesome/scss/font-awesome.scss';
 
 @import 'sass-bootstrap/lib/variables';
 @import 'bootswatch-scss/flatly/variables';
@@ -14,6 +16,10 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 .container {
     margin-top: $navbar-height;
+}
+
+.footer {
+    width: 100%;
 }
 
 /* Space out content a bit */
